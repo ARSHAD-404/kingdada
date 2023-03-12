@@ -406,8 +406,9 @@ class Main:
 		print("")
 		print("\033[1;36m     No Tenshion Enjoy this tool for free")
 		print("")
-		print("\033[1;32m [1] Hello Friendz")
-		print("\033[1;33m [2] Exit")
+		print("\033[1;32m [1] Auto Cracking")
+                print("\033[1;35m[2] Fill Passwords")
+		print("\033[1;33m [3] Exit")
 		print("")
 		ARSHAD = input("\n\033[1;36m  Chose ==> \033[1;32m")
 		if ARSHAD in ["", " "]:
