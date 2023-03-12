@@ -389,7 +389,7 @@ logo = ("""\033[1;32m
   \033[1;32mOwner  :  ARSHAD KING
   \033[1;33mStatus  :  FREE
 \033[1;34mWorking : All Device Working Bro
- \033[1;34mVersion : 0.1  
+ \033[1;35mVersion : 0.1  
  ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;32m""")
 
 class Main:
