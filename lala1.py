@@ -83,9 +83,9 @@ imt="-M4786=="
 ak=" ARSHAD-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.QAS -cov', 'r').read()
+	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/bin/.QAS -cov', 'w')
+	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
 def login():
@@ -125,23 +125,6 @@ def Public():
 			print( ' [×] Login Failed ')
 			time.sleep(2.5)
 			Public()
-		except requests.exceptions.ConnectionError:
-			print ( ' [×] Connection Timeout')
-			exit()
-	elif pil in ['2','02']:
-		try:
-			cookie=input(" [+] Cookie : ")
-			data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 12.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
-			find_token = re.search("(EAAG\w+)", data.text)
-			ken=open(".token.txt", "w").write(find_token.group(1))
-			print (" [] Login Successful")
-			login()
-		except Exception as e: 
-			os.system("rm -f .token.txt")
-			print( ' [×] Login Failed ')
-			time.sleep(2.5)
-			login()
-			exit()
 def public_menu():
 	try:
 		token = open('.token.txt','r').read()
@@ -400,48 +383,19 @@ class Main:
 		self.loop = 0
 		os.system("clear")
 		print(logo)
-		print("")
-		print("\033[1;36m     No Tenshion Enjoy this tool for free")
-		print("")
-		print("\033[1;32m [1] Hello Friendz")
-		print("\033[1;33m [2] Exit")
-		print("")
-		ARSHAD = input("\n\033[1;36m  Chose ==> \033[1;32m")
-		if ARSHAD in ["", " "]:
-			exit()
-		elif ARSHAD in ["2", "02"]:
-			print("    Thanks🥰♥️")
-			exit()
-		elif ARSHAD in ["1", "01"]:
-			os.system("xdg-open https://youtu.be/gxjhqkJL_h0")
-			print("")
-			time.sleep(2.0)
-			print("\033[1;33m    Apna nam type kro")
-			print("")
-			input("\n\033[1;32m  Type Name ==> \033[1;36m")
-			time.sleep(2.1)
-			print("")
-			print("\033[1;32m Successful Bro")
-			time.sleep(2.0)
-			os.system("clear")
-		
-			print(logo)
 		print("\n\033[1;32m [1] File Cloning")
-		print(" [2]\033[1;33m Public Cloning")
-		print(" [3]\033[1;32m Create File")
-		print(" [4]\033[1;33m 2009-10 Cloning")
-		print(" [5]\033[1;32m 2011-14 Cloning")
-		print(" [E]\033[1;33m Exit \n")
+		print(" [2]\033[1;32m Create File")
+		print(" [3]\033[1;33m Random Cloning")
+		print(" [4]\033[1;32m Random Old Cloning")
+		print(" [5]\033[1;33m Exit \n")
 		Ali =input(" Choose : ")
 		if Ali in ["1", "01"]:
 			File()
 		if Ali in ["2", "02"]:
-			Public()
-		if Ali in ["3", "03"]:
 			os.system("python Dump.py")
-		if Ali in ["4", "04"]:
+		if Ali in ["3", "03"]:
 			self.old()
-		if Ali in ["5", "05"]:
+		if Ali in ["4", "04"]:
 			self.old2()
 			exit()
 		else:
@@ -1305,7 +1259,7 @@ class Main:
 
 
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.QAS -cov', 'r').read()
+	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 	clear()
 	print(logo)
 	r1=requests.get("https://github.com/QASIM11-00/QAS/blob/main/Approval.txt").text
