@@ -385,7 +385,7 @@ logo = ("""\033[1;32m
 \033[1;35m██   ██ ██   ██      ██ ██   ██ ██   ██ ██   ██ 
 \033[1;36m██   ██ ██   ██ ███████ ██   ██ ██   ██ ██████  
 
-        Clear Facebook Data to open idz Just Now♥️
+    \033[1;32mClear Facebook Data to open idz Just Now♥️
                                                  
  ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;33m
   \033[1;32mOwner  :  ARSHAD KING
