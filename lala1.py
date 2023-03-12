@@ -83,9 +83,9 @@ imt="-M4786=="
 ak=" ARSHAD-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
+	key1 = open('/data/data/com.termux/files/usr/bin/.QAS -cov', 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
+	kok=open('/data/data/com.termux/files/usr/bin/.QAS -cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
 def login():
@@ -1305,10 +1305,10 @@ class Main:
 
 
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
+	key1=open('/data/data/com.termux/files/usr/bin/.QAS -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/QASIM11-00/QAS/edit/main/Approval.txt").text
+	r1=requests.get("https://github.com/QASIM11-00/QAS/blob/main/Approval.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
