@@ -8,6 +8,34 @@ B = '\033[94;1m'
 P = '\033[95;1m'
 C = '\033[96;1m'
 N = '\x1b[0m'
+import os,base64
+
+os.system('git pull -q;rm .rndm')
+try:
+	import os,sys,time,json,random,re,string,platform,base64,uuid,requests,io,struct
+	from string import *
+	from concurrent.futures import ThreadPoolExecutor as ThreadPool
+except(ImportError):
+    os.system("pip install requests")
+    pass
+
+
+try:
+    import bs4
+except(ImportError):
+    os.system("pip install bs4")
+    pass
+
+try:
+ pass
+except:pass
+
+
+import subprocess
+from bs4 import BeautifulSoup
+import json,os,time,base64,random,re,sys, subprocess 
+from requests.exceptions import ConnectionError as CError
+from concurrent.futures import ThreadPoolExecutor as speed
 import os
 try:
 	import requests
