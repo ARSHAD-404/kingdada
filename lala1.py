@@ -26,6 +26,7 @@ import requests
 import random
 import platform
 import base64
+import bs4
 import subprocess 
 from concurrent.futures import ThreadPoolExecutor
 import requests,bs4,uuid,json,os,sys,random,datetime,time,re,subprocess
@@ -45,6 +46,7 @@ from concurrent.futures import ThreadPoolExecutor as tred
 from rich.console import Group as gp
 from rich.panel import Panel as nel
 import base64
+import bs4
 from rich import print as cetak
 from rich.markdown import Markdown as mark
 from rich.columns import Columns as col
