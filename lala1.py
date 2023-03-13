@@ -388,9 +388,9 @@ class Main:
 		print(logo)
 		print("\n\033[1;32m [1] File Cloning")
 		print(" [2]\033[1;31m Create File")
-		print(" [3]\033[1;33m Random Cloning")
-		print(" [4]\033[1;35m Random Old Cloning")
-		print(" [5]\033[1;36m Exit \n")
+		print(" [3]\033[1;32m Random Cloning")
+		print(" [4]\033[1;33m Random Old Cloning")
+		print(" [5]\033[1;35m Exit \n")
 		Ali =input(" Choose : ")
 		if Ali in ["1", "01"]:
 			File()
