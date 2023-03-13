@@ -34,7 +34,7 @@ except:pass
 import subprocess
 from bs4 import BeautifulSoup
 import json,os,time,base64,random,re,sys, subprocess 
-from requests.exceptions import ConnectionError as CError
+from requests.exceptions import ConnectionError as Error
 from concurrent.futures import ThreadPoolExecutor as speed
 import os
 try:
