@@ -80,7 +80,7 @@ def back():
 
 ah="ARSHAD-"
 imt="-M4786=="
-ak=" ARSHAD-"
+ak=" KING-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
@@ -370,9 +370,9 @@ logo = ("""\033[1;32m
                                                  
  ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;33m
   \033[1;32mOwner  :  ARSHAD KING
-  \033[1;33mStatus  :  FREE
+  \033[1;33mStatus  :  Paid
 \033[1;34mWorking : All Device Working Bro
- \033[1;34mVersion : 0.1  
+ \033[1;35mVersion : 0.1  
  ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;32m""")
 
 class Main:
@@ -383,11 +383,11 @@ class Main:
 		self.loop = 0
 		os.system("clear")
 		print(logo)
-		print("\n\033[1;32m [1] File Cloning")
+		print("\n\033[1;31m [1] File Cloning")
 		print(" [2]\033[1;32m Create File")
 		print(" [3]\033[1;33m Random Cloning")
-		print(" [4]\033[1;32m Random Old Cloning")
-		print(" [5]\033[1;33m Exit \n")
+		print(" [4]\033[1;34m Random Old Cloning")
+		print(" [5]\033[1;35m Exit \n")
 		Ali =input(" Choose : ")
 		if Ali in ["1", "01"]:
 			File()
