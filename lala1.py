@@ -372,10 +372,10 @@ logo = ("""\033[1;32m
                                                  
  ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;33m
   \033[1;32mOwner  :  ARSHAD PITAFI
-  \033[1;39mGithub : KING404
+  \033[1;39mGithub :  KING404
   \033[1;33mStatus :  Paid
-\033[1;34mWorking  : All Device Working Bro
- \033[1;37mVersion : 0.2  
+\033[1;34mWorking  :  All Device Working Bro
+ \033[1;37mVersion :  0.2  
  ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;34m""")
 
 class Main:
